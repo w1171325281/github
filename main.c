@@ -168,7 +168,7 @@ int main(void)
    {
      if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0))
      {
-       delay(200000);
+       delay(200001);
         if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0)&i==0)
         {
           delay(1000000);
