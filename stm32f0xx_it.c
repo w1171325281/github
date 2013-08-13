@@ -99,6 +99,15 @@ void  EXTI0_1_IRQHandler(void)
 void NMI_Handler(void)
 {
 }
+void NMI_Handler1(void)
+{
+}
+void NMI_Handler2(void)
+{
+}
+void NMI_Handler3(void)
+{
+}
 /**
   * @brief  This function handles Hard Fault exception.
   * @param  None
