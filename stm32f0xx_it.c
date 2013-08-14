@@ -59,7 +59,7 @@ void Func()
        delay(200000);
         if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0)&i==0)
         {
-          delay(1000000);
+          delay(3000000);
          i++;
         GPIO_WriteBit(GPIOC, GPIO_Pin_9,Bit_SET );
         PWR_EnterSleepMode(PWR_SLEEPEntry_WFI);
@@ -67,7 +67,7 @@ void Func()
         }
         else if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0)&i==1)
         {
-          delay(1000000);
+          delay(4000000);
           i++;
         GPIO_WriteBit(GPIOC, GPIO_Pin_8,Bit_SET );
         PWR_EnterSTOPMode(PWR_Regulator_LowPower, PWR_STOPEntry_WFI);
